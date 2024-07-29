@@ -24,3 +24,7 @@ def test_restore_names() -> None:
     assert users[1]["first_name"] == "George"
     assert users[1]["last_name"] == "Washington"
     assert users[1]["full_name"] == "George Washington"
+
+
+if __name__ == "main":
+    pytest.main()
